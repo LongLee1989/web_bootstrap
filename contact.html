@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Contact</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+   </head>
+   <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+         <!-- Brand -->
+            <a class="navbar-brand" href="../Web%20Bootstrap/web_bootstrap.html">Start Bootstrap</a>
+    
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="../Web%20Bootstrap/web_bootstrap.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="../Web%20Bootstrap/services.html">                   
+                        Services
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="../Web Bootstrap/contact.html">Contact</a>
+                  </li>
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                     Portfolio
+                     </a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../Web Bootstrap/portfolio_1.html">Portfolio 1</a>
+                        <a class="dropdown-item" href="../Web Bootstrap/portfolio_2.html">Portfolio 2</a>
+                        <a class="dropdown-item" href="#">Portfolio 3</a>
+                     </div>
+                  </li>
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                     Blog
+                     </a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../Web Bootstrap/blog_1.html">Blog Home 1</a>
+                        <a class="dropdown-item" href="#">Blog Home 2</a>
+                        <a class="dropdown-item" href="#">Blog Post</a>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                     Other Pages
+                     </a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../Web Bootstrap/page_1.html">Page 1</a>
+                        <a class="dropdown-item" href="#">Page 2</a>
+                        <a class="dropdown-item" href="#">Page 3</a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+   </header>
+   <body>
+      <div class="container">
+
+         <h3>Contact Subheading</h3>
+
+         <nav aria-label="breadcrumb">
+            <ul class="breadcrumb">
+               <li class="breadcrumb-item"><a href="../Web%20Bootstrap/web_bootstrap.html">Home</a></li>
+               <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ul>
+         </nav>
+               
+         
+         <div class= "row">
+            <div class ="col-md-7">
+
+               <!-- Hiển thị GOOGLE MAP -->
+               <!-- https://www.embedgooglemap.net/ -->
+               
+
+               <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=41%20L%C3%AA%20Du%E1%BA%A9n&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+               <br><br>
+
+               <h4>Send us a Message</h4>
+
+               <form>
+                  <!-- Vertical -->
+                  <div class="form-group">
+                     <label for="myFullName">Full Name</label>
+                     <input type="text" id = "myFullName" class="form-control">
+                     <label for="myPhone">Phone Number</label>
+                     <input type="text" id="myPhone" class="form-control">
+                     <label for="myEmail">Email Address</label>
+                     <input type="Email" id="myEmail" class="form-control">
+
+                     <label for="myTextarea2">Message</label>
+                     <textarea id="myTextarea2" class="form-control" rows="5"></textarea>
+
+                  </div>
+               </form>
+
+            </div>
+
+            <div class ="col-md-5">
+               <h3>Contact Details</h3>
+               <p>
+                  41 Lê Duẩn, Hải Châu 1, Tp. Đà Nẵng 
+               </p>
+               <a href="" style="text-decoration: underline;">P:</a>
+               <span>(123)456-7890</span><br>
+               <a href="" style="text-decoration: underline;">E:</a>
+               <span>name@example.com</span><br>
+               <a href="" style="text-decoration: underline;">H:</a>
+               <span>Monday - Friday: 9:00 AM to 5:00 PM</span><br>
+            </div>
+         </div>
+ 
+      </div>
+ 
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   </body>
+</html>
